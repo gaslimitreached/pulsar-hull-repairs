@@ -33,12 +33,6 @@ namespace HullRepairs
                 return;
             }
 
-            if (!Global.CommandEnabled)
-            {
-                Messaging.Notification("Command disabled by host.", player);
-                return;
-            }
-
             if (PLEncounterManager.Instance.PlayerShip == null || PLEncounterManager.Instance.PlayerShip.MyFlightAI.cachedRepairDepotList.Count < 1)
             {
                 Messaging.Notification("No repair depot in this sector.", player);

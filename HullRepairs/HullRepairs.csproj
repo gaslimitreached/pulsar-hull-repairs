@@ -68,10 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllowCommand.cs" />
     <Compile Include="Command.cs" />
-    <Compile Include="GUI.cs" />
-    <Compile Include="Global.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Properties/AssemblyInfo.cs" />
   </ItemGroup>
